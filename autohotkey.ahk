@@ -1,8 +1,8 @@
 ;Add as many window titles to the group.
 GroupAdd Swap, ahk_exe code.exe
-GroupAdd Swap, ahk_exe firefox.exe
+GroupAdd Swap, ahk_exe chrome.exe
 ;End::GroupActivate Swap
-;LAlt & Space::GroupActivate Swap
+LAlt & Space::GroupActivate Swap
 
 ; Media keys shortcuts
 LAlt & Up::
@@ -43,11 +43,11 @@ Send {Right}
 return
 
 ; Browser tabs shortcuts
-LAlt & u::
+LAlt & o::
 Send ^{PgDn}
 return
 
-LAlt & o::
+LAlt & u::
 Send ^{PgUp}
 return
 
